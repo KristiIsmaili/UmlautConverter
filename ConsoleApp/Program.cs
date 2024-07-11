@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace UmlautConverter
@@ -9,6 +10,9 @@ namespace UmlautConverter
     {
         static void Main(string[] args)
         {
+            
+            Console.OutputEncoding = Encoding.UTF8;
+
             Console.WriteLine("Umlaut Name Converter and Variation Generator");
             Console.WriteLine("---------------------------------------------");
 
